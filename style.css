@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkblue;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 57vh;
+    width: 42vw;
+}
+
+.square {
+    height: 19vh;
+    width: 14vw;
+    border: 1px solid red;
+}
+
+.mole {
+    background-color: chocolate;
+}
