@@ -25,9 +25,17 @@ h2 {
 .square {
     height: 19vh;
     width: 14vw;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 
 .mole {
-    background-color: chocolate;
+    background: url('Taupe.png') content-box  center no-repeat;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
 }
